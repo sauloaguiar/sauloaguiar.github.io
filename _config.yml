@@ -1,0 +1,23 @@
+# Site Settings
+
+title: Personal Blog
+email: sauloaguiar at gmail.com
+author: Saulo Aguiar
+url: http://sauloaguiar.github.io
+github: sauloaguiar
+linkedin: sauloaguiar
+
+
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+
+port: 4000
+
+include: ['_includes/work']
+exclude: ['the_design.psd', 'vendor']
+
+sass:
+  sass_dir: assets/css
+  style: :nested
