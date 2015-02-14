@@ -5,7 +5,7 @@ tags: Jekyll, blogging, web, Koding
 comments: true
 ---
 
-In this first blog post I'm going to help you setup Jekyll in a Koding.com account.<!--more-->
+In this first blog post I'm going to describe how to you setup Jekyll in a Koding.com account.<!--more-->
 
 To start this, make sure you already have your koding.com access. If you have some familiarity within linux terminal usage, it will be helpful too.
 
@@ -17,3 +17,7 @@ Install ruby, ruby development libraries and the make helper.
 sudo apt-get install ruby ruby-dev make gcc node-js
 {% endhighlight %}
 
+### References
+
+[1] [Nokogiri Troubleshooting](http://www.nokogiri.org/tutorials/installing_nokogiri.html)
+[2] [Using Jekyll within GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/)
