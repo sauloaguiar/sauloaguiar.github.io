@@ -1,17 +1,16 @@
 ---
 ---
 <!DOCTYPE html>
-<html>
 <head>
 	<meta charset="UTF-8">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="{{ site.data.settings.seo.description }}">
 	<meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
-	<meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}"
+	<meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
 
-	<title> {{ site.data.settings.title }}</title>
-
+	<title>{{ site.title }}</title>
+	
 	<!-- Font-Awesome CSS -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
@@ -20,17 +19,19 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
+    
+    <!-- Generated CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
+{% include google_analytics.html %}
 <body>
 
 	<div class="container-fluid">
 
 		<div class="row">
 
-			<div class="col-sm-3 col-sm-offset-1 blog-sidebar sidebar">
+			<div class="col-sm-3  blog-sidebar sidebar">
 				{% include sidebar.html %}
 			</div>
 
@@ -42,11 +43,7 @@
 
 	</div><!-- /.container -->
 
-	<div class="col-sm-12">
-		{% include footer.html %}
-	</div>
-
-
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
  	<!-- Latest compiled and minified JavaScript -->
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
