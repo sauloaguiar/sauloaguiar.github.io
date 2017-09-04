@@ -5,9 +5,9 @@ tags: braziljs, conference,  javascript, volunteering, womenintech, learning
 comments: true
 ---
 
-Hi there, this time I'll be sharing with you my experience in BrazilJS conference, Fortaleza edition. <!--more-->
+Hi there, this time I'll be sharing with you my experience in BrazilJS conference (Fortaleza edition). <!--more-->
 
-The conference happened in two days, 1st and 2nd of September, and had a lot of great speakers with very interesting topics. As I'm moving towards a javascript oriented work, developing react and dealing with other front end challenges, I was very happy to participate in it. The thing is, I ended up volunteering to be an interpreter during the 2nd day, as in the first, the organizers had some issues with the hired personnel.
+The conference happened in two days, September 1st and 2nd, and it had a lot of great speakers with very interesting topics. As I'm moving towards a javascript oriented work, developing react and dealing with other front end challenges, I was very happy to participate in it. The thing is, I ended up volunteering to be an interpreter during the 2nd day, since the organizers had some issues with the hired personnel in the first day.
 
 It all happened after some friends of mine [@rafaelsales](https://twitter.com/rafaelsales), [@cmilfont](https://twitter.com/cmilfont) put me in touch with the organization [@jaydson](https://twitter.com/jaydson) that welcomed me very nicely. I was actually a backup for the 2nd day and ended up translating the very last english talk from the day that was done by [@salvadelapuente](https://twitter.com/salvadelapuente) where he explained and showcased how [a-frame](https://aframe.io/) makes VR easy on the web using a declarative style of programming.
 
