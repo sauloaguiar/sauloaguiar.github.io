@@ -8,7 +8,8 @@ comments: true
 During the previous weekend I participated in Uber’s hack Fortaleza edition. The hackathon was as a 30hr solution contest and the topic was urban mobility. <!--more-->
 I’m going to write about my learning experience during the event. My effort here is to summarize all the learning and not exactly talk about the event in general.
 
-Even though Uber was organizing the event, we were asked to propose solutions regardless of the company product.  We had these criteria to be followed.
+Even though Uber was organizing the event, we were asked to propose solutions regardless of the company product.  We had these criteria to be followed:
+
 	1. Creativity
 	2. Applicability
 	3. Disruption
@@ -18,6 +19,7 @@ Even though Uber was organizing the event, we were asked to propose solutions re
 With those criteria in mind, I urged my team to focus on the whole solution instead of just building a software prototype and leaving lose ends, for instance, not being sure about the targeted user group or if the problem we were aiming to solve wasn’t a user pain point.
 Our idea was to create a carpooling platform targeting college students. The platform will connect riders and drivers based on the drivers’ daily route to college. The motivation came from ourselves, since most of the team members were or still are college students and suffered daily with the lack of quality from public transport solutions in our city.
 To achieve our goal, we decided to start by validating our idea using a google form. We came up with strategic questions that would support - or deny - our assumptions. The questions that gave us sensible knowledge were regarding
+
 	1. Motivation
 		1. why drivers give rides?
 	2. Price range
