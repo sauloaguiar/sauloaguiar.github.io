@@ -11,7 +11,7 @@
 	<title>Saulo Aguiar</title>
 
 	<!-- Font-Awesome CSS -->
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
 	<!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -35,12 +35,23 @@
 <body>
 		<div class="container">
 				<div class="header">
-					  <a href="/">ABOUT</a>
-  <a href="https://medium.com/@saulo_aguiar" target="_blank">BLOG</a>
-  <a href="/projects">PROJECTS</a>
-  <a href="/reading">READING</a>
-  <a>CONTACT</a>
-
+					<ul class="navbar">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="header" href="/">ABOUT</a>
+  </li>
+  <li class="nav-item">
+    <a href="https://medium.com/@saulo_aguiar" data-toggle="header" target="_blank">BLOG</a>
+  </li>
+  <li class="nav-item">
+    <a href="/projects" data-toggle="header">PROJECTS</a>
+  </li>
+  <li class="nav-item">
+    <a href="/reading" data-toggle="header">READING</a>
+  </li>
+  <li class="nav-item">
+    <a href="mailto:contact@sauloaguiar.com" data-toggle="header">CONTACT</a>
+  </li>
+</ul>
 				</div>
 				<div class="content">
 					<h3>About</h3>
@@ -49,84 +60,92 @@
 		<a href="/">
 			<img class="gravatar" src="http://www.gravatar.com/avatar/ea0fc856babc7fed1657cc11512a91b8?&size=200"/><br/>
 		</a>
-		<h2>Tech Stack</h2>
-		<div class="technologyGrid">		
-			<a 
-				aria-label="ReactJS"
-				href="http://reactjs.org">
-					<img class="technologyGravatar" src="/assets/images/icons/react.png" alt="@ReactJS">
-			</a>
-			<a 
-				aria-label="Javascript"
-				href="https://developer.mozilla.org/bm/docs/Web/JavaScript">
-					<img class="technologyGravatar" src="/assets/images/icons/javascript.png" alt="@Javascript">
-			</a>
-			<a 
-				aria-label="NodeJs"
-				href="https://nodejs.org/en/">
-					<img class="technologyGravatar" src="/assets/images/icons/nodejs.png" alt="@Nodejs">
-			</a>
-			<a
-				aria-label="Java"
-				href="https://www.oracle.com/java/index.html">
-					<img class="technologyGravatar" src="/assets/images/icons/java.png" alt="@Java">
-			</a>
-			<a
-				aria-label="Android"
-				href="https://www.android.com">
-					<img class="technologyGravatar" src="/assets/images/icons/android.png" alt="@Android">
-			</a>
-			<a
-				aria-label="MongoDB"
-				href="https://www.mongodb.com">
-					<img class="technologyGravatar" src="/assets/images/icons/mongodb.png" alt="MongoDB">
-			</a>
-			<a
-				aria-label="PostgresSQL"
-				href="https://www.postgresql.com">
-					<img class="technologyGravatar" src="/assets/images/icons/postgresql.webp" alt="PostgresSQL">
-			</a>
-			<a
-				aria-label="Git"
-				href="https://www.git-scm.com">
-					<img class="technologyGravatar" src="/assets/images/icons/git.png" alt="Git">
-			</a>
-			<a
-				aria-label="Elasticsearch"
-				href="https://www.elastic.co/products/elasticsearch">
-					<img class="technologyGravatar" src="/assets/images/icons/elasticsearch.png" alt="Elasticsearch">
-			</a>
-			<a
-				aria-label="SpringBoot"
-				href="https://spring.io">
-					<img class="technologyGravatar" src="/assets/images/icons/springboot.png" alt="SpringBoot">
-			</a>
-			<a
-				aria-label="Kotlin"
-				href="https://www.kotlinlang.org">
-					<img class="technologyGravatar" src="/assets/images/icons/kotlin.png" alt="Kotlin">
-			</a>
+		<div class="technologyGridWrapper">
+			<h4>Tech Stack</h4>
+			<div class="technologyGrid">		
+				<a 
+					aria-label="ReactJS"
+					href="http://reactjs.org">
+						<img class="technologyGravatar" src="/assets/images/icons/react.png" alt="@ReactJS">
+				</a>
+				<a 
+					aria-label="Javascript"
+					href="https://developer.mozilla.org/bm/docs/Web/JavaScript">
+						<img class="technologyGravatar" src="/assets/images/icons/javascript.png" alt="@Javascript">
+				</a>
+				<a 
+					aria-label="NodeJs"
+					href="https://nodejs.org/en/">
+						<img class="technologyGravatar" src="/assets/images/icons/nodejs.png" alt="@Nodejs">
+				</a>
+				<a
+					aria-label="Java"
+					href="https://www.oracle.com/java/index.html">
+						<img class="technologyGravatar" src="/assets/images/icons/java.png" alt="@Java">
+				</a>
+				<a
+					aria-label="Android"
+					href="https://www.android.com">
+						<img class="technologyGravatar" src="/assets/images/icons/android.png" alt="@Android">
+				</a>
+				<a
+					aria-label="MongoDB"
+					href="https://www.mongodb.com">
+						<img class="technologyGravatar" src="/assets/images/icons/mongodb.png" alt="MongoDB">
+				</a>
+				<a
+					aria-label="PostgresSQL"
+					href="https://www.postgresql.com">
+						<img class="technologyGravatar" src="/assets/images/icons/postgresql.webp" alt="PostgresSQL">
+				</a>
+				<a
+					aria-label="Git"
+					href="https://www.git-scm.com">
+						<img class="technologyGravatar" src="/assets/images/icons/git.png" alt="Git">
+				</a>
+				<a
+					aria-label="Elasticsearch"
+					href="https://www.elastic.co/products/elasticsearch">
+						<img class="technologyGravatar" src="/assets/images/icons/elasticsearch.png" alt="Elasticsearch">
+				</a>
+				<a
+					aria-label="SpringBoot"
+					href="https://spring.io">
+						<img class="technologyGravatar" src="/assets/images/icons/springboot.png" alt="SpringBoot">
+				</a>
+				<a
+					aria-label="Kotlin"
+					href="https://www.kotlinlang.org">
+						<img class="technologyGravatar" src="/assets/images/icons/kotlin.png" alt="Kotlin">
+				</a>
+			</div>
 		</div>
 	</div>
 
 	<div class="profileDescription">
-		<p>Hi, my name is <strong>Saulo Aguiar.</strong></p>
 		<p>Hi there!
-			Saulo speaking here. I’m an enthusiastic software developer who is always trying to hack myself and improve my learning abilities. During the previous year I’ve been learning and contributing to the Javascript ecosystem mainly using React and Node.js. I also have exposure to different programming languages and frameworks like Java, Kotlin, Android and Spring Boot.
-			
-			Last but not least, I like to play drums, read and cook!
-			Cheers :)
+				<strong>Saulo speaking here.</strong> I’m an enthusiastic software developer who is always trying to hack myself and improve my learning abilities.</br>
+				During the previous year I’ve been learning and contributing to the Javascript ecosystem mainly using React and Node.js. I also have exposure to different programming languages and frameworks like Java, Kotlin, Android and Spring Boot.</br>
+				I value <strong>transparency, collaboration and autonomy.</strong> I believe that these qualities are critical to help teams' deliver great results.
+
 		</p>
+		<p>
+			Last but not least, I play drums to improve my creativity and relax, I enjoy reading to learn new perspectives and I try to cook sometimes!
+		</p>
+		<p>
+			You're welcome to drop me a message or find me in the social networks bellow. </br>
+			Cheers!
+		</p>
+		<div class="profileSocialNetworks">
+			<a href="http://github.com/sauloaguiar" target="_blank"><span class="fab fa-github-alt fa-2x"></a>
+			<a href="http://www.linkedin.com/in/sauloaguiar" target="_blank"><span class="fab fa-linkedin-in fa-2x"></a>
+			<a href="http://www.twitter.com/saulo_aguiar" target="_blank"><span class="fab fa-twitter fa-2x"></a>
+		</div>
 	</div>
 </div>
 				</div>
 				<div class="footer">
 				<fotter>
-  <div class="footerWrapper">
-    <a href="http://github.com/sauloaguiar" target="_blank"><span class="fa fa-github-alt fa-2x"></a>
-    <a href="http://www.linkedin.com/in/sauloaguiar" target="_blank"><span class="fa fa-linkedin fa-2x"></a>
-    <a href="http://www.twitter.com/saulo_aguiar" target="_blank"><span class="fa fa-twitter fa-2x"></a>
-  </div>
   <span class="copyrightWrapper">Copyright © 2018 Saulo Aguiar</span>
 </fotter>
 </div>

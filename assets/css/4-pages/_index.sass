@@ -1,10 +1,14 @@
 .profileContainer
   height: 100%
   display: grid
-  grid-gap: 3px
+  grid-gap: 20px
   grid-template-columns: repeat(2, 1fr)
   grid-template-rows: repeat(2, 1fr)
   grid-template-areas: "p d" "p d"
+  
+  .profileSocialNetworks
+    display: flex
+    justify-content: space-around
 
 .profileSkills
   grid-area: p
@@ -12,8 +16,9 @@
   flex-direction: column
   align-items: center
 
-  h2
+  .technologyGridWrapper
     align-self: flex-start
+    max-width: 400px
 
 .profileDescription
   grid-area: d

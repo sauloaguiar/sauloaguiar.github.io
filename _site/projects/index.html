@@ -11,7 +11,7 @@
 	<title>Saulo Aguiar</title>
 
 	<!-- Font-Awesome CSS -->
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
 	<!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -35,12 +35,23 @@
 <body>
 		<div class="container">
 				<div class="header">
-					  <a href="/">ABOUT</a>
-  <a href="https://medium.com/@saulo_aguiar" target="_blank">BLOG</a>
-  <a href="/projects">PROJECTS</a>
-  <a href="/reading">READING</a>
-  <a>CONTACT</a>
-
+					<ul class="navbar">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="header" href="/">ABOUT</a>
+  </li>
+  <li class="nav-item">
+    <a href="https://medium.com/@saulo_aguiar" data-toggle="header" target="_blank">BLOG</a>
+  </li>
+  <li class="nav-item">
+    <a href="/projects" data-toggle="header">PROJECTS</a>
+  </li>
+  <li class="nav-item">
+    <a href="/reading" data-toggle="header">READING</a>
+  </li>
+  <li class="nav-item">
+    <a href="mailto:contact@sauloaguiar.com" data-toggle="header">CONTACT</a>
+  </li>
+</ul>
 				</div>
 				<div class="content">
 					<h3>Projects</h3>
@@ -51,9 +62,9 @@
 			</div>
 			<img class="card-img-top" src="/assets/images/screenshots/js-game.png" alt="Javascript Game">
 			<div class="card-body">
-				<p class="card-text">This is the final project for the intermidiate Javascript course on Udacity. It exercises object oriented and prototype concepts in javascript.</p>
-				<a href="https://github.com/sauloaguiar/frontend-nanodegree-arcade-game" target="_blank"><span class="fa fa-github-alt fa-2x">Github link</a>
-				<a href="https://oojsgame.sauloaguiar.com" target="_blank">Game live link</a>
+				<p class="card-text">This is the final project for the intermediate Javascript course on Udacity. It exercises Javascript's main concepts like the this keyword and object oriented development using prototype.</p>
+				<a href="https://github.com/sauloaguiar/frontend-nanodegree-arcade-game" target="_blank"><i class="fab fa-github-alt"></i>&nbsp;Github Repo</a>
+				<a href="https://oojsgame.sauloaguiar.com" target="_blank"><i class="fas fa-code"></i>&nbsp;Deployed Game</a>
 			</div>
 		</div>
 		<div class="card" style="width: 18rem;">
@@ -62,8 +73,8 @@
 				</div>
 				<img class="card-img-top" src="/assets/images/screenshots/rn-albums.gif" alt="RN Album">
 				<div class="card-body">
-					<p class="card-text">This Learning app does a GET request to retrieve artist album information and add cards in a listview format</p>
-					<a href="https://github.com/sauloaguiar/react-native-albums" target="_blank"><span class="fa fa-github-alt fa-2x">Github link</a>
+					<p class="card-text">This React Native project performs a GET HTTP request to retrieve the artist discography and creates cards to display them grouped under a listview.</p>
+					<a href="https://github.com/sauloaguiar/react-native-albums" target="_blank"><i class="fab fa-github-alt"></i>&nbsp;Github Repo</a>
 				</div>
 			</div>
 	
@@ -72,11 +83,6 @@
 				</div>
 				<div class="footer">
 				<fotter>
-  <div class="footerWrapper">
-    <a href="http://github.com/sauloaguiar" target="_blank"><span class="fa fa-github-alt fa-2x"></a>
-    <a href="http://www.linkedin.com/in/sauloaguiar" target="_blank"><span class="fa fa-linkedin fa-2x"></a>
-    <a href="http://www.twitter.com/saulo_aguiar" target="_blank"><span class="fa fa-twitter fa-2x"></a>
-  </div>
   <span class="copyrightWrapper">Copyright © 2018 Saulo Aguiar</span>
 </fotter>
 </div>

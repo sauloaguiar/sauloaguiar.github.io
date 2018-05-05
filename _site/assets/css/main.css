@@ -262,11 +262,14 @@ body {
 .blog-main {
   padding: 30px 0px; }
 
-.header {
-  margin: 20px 0px;
-  display: flex;
+.nav {
   align-content: center;
   justify-content: space-around; }
+
+.header {
+  margin: 20px 0px; }
+  .header ul {
+    list-style: none; }
   .header a {
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
@@ -290,6 +293,7 @@ footer {
 
 .container {
   display: grid;
+  height: 100vh;
   grid-gap: 3px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 80px auto 80px;
@@ -302,26 +306,34 @@ footer {
   grid-area: m; }
 
 .content {
+  margin: 20px 0px;
   grid-area: c; }
 
 .footer {
-  grid-area: f; }
+  grid-area: f;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .profileContainer {
   height: 100%;
   display: grid;
-  grid-gap: 3px;
+  grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "p d" "p d"; }
+  .profileContainer .profileSocialNetworks {
+    display: flex;
+    justify-content: space-around; }
 
 .profileSkills {
   grid-area: p;
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .profileSkills h2 {
-    align-self: flex-start; }
+  .profileSkills .technologyGridWrapper {
+    align-self: flex-start;
+    max-width: 400px; }
 
 .profileDescription {
   grid-area: d; }
@@ -337,3 +349,6 @@ footer {
     .projectsContainer .card .card-body {
       display: flex;
       flex-direction: column; }
+
+.currentlyReading {
+  margin-top: 20px; }

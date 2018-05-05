@@ -1,5 +1,6 @@
 .container
   display: grid
+  height: 100vh
   grid-gap: 3px
   grid-template-columns: repeat(3, 1fr)
   grid-template-rows: 80px auto 80px
@@ -15,8 +16,11 @@
 
 
 .content 
+  margin: 20px 0px
   grid-area: c
-
 
 .footer 
   grid-area: f
+  display: flex
+  justify-content: center
+  align-items: center
