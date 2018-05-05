@@ -1,0 +1,26 @@
+.container
+  display: grid
+  height: 100vh
+  grid-gap: 3px
+  grid-template-columns: repeat(3, 1fr)
+  grid-template-rows: 80px auto 80px
+  grid-template-areas: "h h h" "c c c" "f f f"
+ 
+
+.header 
+  grid-area: h
+
+
+.menu 
+  grid-area: m
+
+
+.content 
+  margin: 20px 0px
+  grid-area: c
+
+.footer 
+  grid-area: f
+  display: flex
+  justify-content: center
+  align-items: center

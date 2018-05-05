@@ -1,19 +1,93 @@
 ---
 layout: default
+title: Saulo Aguiar
 ---
-<div class="row">
-	<div class="main-header">
-		<h3>Blog Posts</h3>
+<h3>About</h3>
+<div class="profileContainer">
+	<div class="profileSkills">
+		<a href="/">
+			<img class="gravatar" src="http://www.gravatar.com/avatar/ea0fc856babc7fed1657cc11512a91b8?&size=200"/><br/>
+		</a>
+		<div class="technologyGridWrapper">
+			<h4>Tech Stack</h4>
+			<div class="technologyGrid">		
+				<a 
+					aria-label="ReactJS"
+					href="http://reactjs.org">
+						<img class="technologyGravatar" src="/assets/images/icons/react.png" alt="@ReactJS">
+				</a>
+				<a 
+					aria-label="Javascript"
+					href="https://developer.mozilla.org/bm/docs/Web/JavaScript">
+						<img class="technologyGravatar" src="/assets/images/icons/javascript.png" alt="@Javascript">
+				</a>
+				<a 
+					aria-label="NodeJs"
+					href="https://nodejs.org/en/">
+						<img class="technologyGravatar" src="/assets/images/icons/nodejs.png" alt="@Nodejs">
+				</a>
+				<a
+					aria-label="Java"
+					href="https://www.oracle.com/java/index.html">
+						<img class="technologyGravatar" src="/assets/images/icons/java.png" alt="@Java">
+				</a>
+				<a
+					aria-label="Android"
+					href="https://www.android.com">
+						<img class="technologyGravatar" src="/assets/images/icons/android.png" alt="@Android">
+				</a>
+				<a
+					aria-label="MongoDB"
+					href="https://www.mongodb.com">
+						<img class="technologyGravatar" src="/assets/images/icons/mongodb.png" alt="MongoDB">
+				</a>
+				<a
+					aria-label="PostgresSQL"
+					href="https://www.postgresql.com">
+						<img class="technologyGravatar" src="/assets/images/icons/postgresql.webp" alt="PostgresSQL">
+				</a>
+				<a
+					aria-label="Git"
+					href="https://www.git-scm.com">
+						<img class="technologyGravatar" src="/assets/images/icons/git.png" alt="Git">
+				</a>
+				<a
+					aria-label="Elasticsearch"
+					href="https://www.elastic.co/products/elasticsearch">
+						<img class="technologyGravatar" src="/assets/images/icons/elasticsearch.png" alt="Elasticsearch">
+				</a>
+				<a
+					aria-label="SpringBoot"
+					href="https://spring.io">
+						<img class="technologyGravatar" src="/assets/images/icons/springboot.png" alt="SpringBoot">
+				</a>
+				<a
+					aria-label="Kotlin"
+					href="https://www.kotlinlang.org">
+						<img class="technologyGravatar" src="/assets/images/icons/kotlin.png" alt="Kotlin">
+				</a>
+			</div>
+		</div>
 	</div>
-    <ul class="posts">
-      {% for post in site.posts %}
-         <li>
-         	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-         	<span class="post-info">[{{ post.date | date_to_string }}]</span>
-         	<p class="breathe-top">{{ post.content | split: '<!--more-->' | first }}</p>
-         	
-         <hr class="fancy"></hr>	
-         </li>
-      {% endfor %}
-    </ul>
+
+	<div class="profileDescription">
+		<p>Hi there!
+				<strong>Saulo speaking here.</strong> I’m an enthusiastic software developer who is always trying to hack myself and improve my learning abilities.</br>
+				During the previous year I’ve been learning and contributing to the Javascript ecosystem mainly using React and Node.js. I also have exposure to different programming languages and frameworks like Java, Kotlin, Android and Spring Boot.</br>
+				I value <strong>transparency, collaboration and autonomy.</strong> I believe that these qualities are critical to help teams' deliver great results.
+
+		</p>
+		<p>
+			Last but not least, I play drums to improve my creativity and relax, I enjoy reading to learn new perspectives and I try to cook sometimes!
+		</p>
+		<p>
+			You're welcome to drop me a message or find me in the social networks bellow. </br>
+			Cheers!
+		</p>
+		<div class="profileSocialNetworks">
+			<a href="http://github.com/{{ site.github }}" target="_blank"><span class="fab fa-github-alt fa-2x"></a>
+			<a href="http://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"><span class="fab fa-linkedin-in fa-2x"></a>
+			<a href="http://www.twitter.com/{{ site.twitter }}" target="_blank"><span class="fab fa-twitter fa-2x"></a>
+		</div>
+	</div>
 </div>
