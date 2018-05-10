@@ -322,9 +322,10 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "p d" "p d"; }
-  .profileContainer .profileSocialNetworks {
-    display: flex;
-    justify-content: space-around; }
+
+.profileSocialNetworks {
+  display: flex;
+  justify-content: space-around; }
 
 .profileSkills {
   grid-area: p;
@@ -338,6 +339,14 @@ footer {
 .profileDescription {
   grid-area: d; }
 
+@media screen and (max-width: 600px) {
+  .profileContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+
+  .profileDescription {
+    margin-top: 20px; } }
 .projectsContainer {
   display: flex;
   flex-wrap: wrap; }
