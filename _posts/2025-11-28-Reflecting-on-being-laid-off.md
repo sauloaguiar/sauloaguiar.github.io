@@ -17,7 +17,7 @@ I wasn't able to sleep the night of the layoff. Who would? It's crazy to think h
 I decided that the best move was to let the dust settle. I kept my laptop closed for the next few days. I focused on enjoying my now “free time” by doing things that I liked. I kept my early training and surfing routine, and that was maybe one of the best decisions I made at that time.
 
 After talking to a few friends about the scenario, one particular reference caught my attention:
-[The story of the Chinese farmer](https://www.wordonfire.org/articles/fellows/the-story-of-the-chinese-farmer/)
+<a href="https://www.wordonfire.org/articles/fellows/the-story-of-the-chinese-farmer/" target="_blank">The story of the Chinese farmer</a>
 
 > We don't have a way to determine if what happens to us is either good or bad. Only time will tell.
 
